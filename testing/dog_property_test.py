@@ -29,3 +29,4 @@ class TestDogProperties:
         dog = Dog("Snoopy", "Beagle")
         with pytest.raises(ValueError):
             dog.breed = "Poodle"  # not an approved breed
+
